@@ -74,4 +74,4 @@ frontend haproxy_v4_http
 
 In these cases you will need to inform in your whatsapp configuration, in addition to the ip address, the port to be used, otherwise it will automatically use the ssh port (443) Example: the host IP is 170:192.168.30 so to use http port defined above should be: 170:192.168.30:81
 
-
+Do not forget to release and/or redirect the necessary ports for this proxy to work, such as: 80, 443 and 5222
