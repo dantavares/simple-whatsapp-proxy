@@ -1,0 +1,11 @@
+[Unit]
+Description=Run once
+After=network.target
+
+[Service]
+ExecStart=/opt/wa_proxy.sh
+RemainAfterExit=true
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
