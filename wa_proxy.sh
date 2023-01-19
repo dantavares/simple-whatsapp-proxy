@@ -14,4 +14,5 @@ then
 	sysctl net.ipv4.ip_forward=1
 else
 	echo "Error getting whatsapp server ip!"
+	exit 5
 fi
