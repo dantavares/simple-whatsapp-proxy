@@ -1,5 +1,5 @@
 [Unit]
-Description=Run once
+Description=WhatsApp Proxy Activation
 After=network.target
 
 [Service]
